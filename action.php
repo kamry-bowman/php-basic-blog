@@ -1,2 +1,2 @@
-Hi <?php echo htmlspecialchars($_POST['name']); ?>.
+Hi <?php echo htmlEscape($_POST['name']); ?>.
 You are <?php echo (int)$_POST['age']; ?> years old.
